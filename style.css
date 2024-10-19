@@ -51,14 +51,14 @@ nav ul li a {
     color: #333;
     font-weight: 600;
     padding: 10px 20px;
-    transition: color 0.3s ease; /* For smooth hover transition */
+    transition: color 0.3s ease; 
 }
 
 /* Hover effect for nav items */
 nav ul li a:hover {
     color: #ff6699; /* Change color on hover */
-    background-color: #fff; /* Optional: Add background color on hover */
-    border-radius: 5px; /* Optional: Add rounded corners on hover */
+    background-color: #fff; 
+    border-radius: 5px;
 }
 
 /* Facts Section */
