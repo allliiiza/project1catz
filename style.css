@@ -1,0 +1,114 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center; /* Center the content in the header */
+    background-color: #ffcc99;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo img {
+    position: absolute; /* Keeps the logo at the top left */
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: auto;
+}
+
+.title h1 {
+    font-family: 'Cute Font', cursive; /* Use Cute Font for the title */
+    font-size: 3rem;
+    color: #ff6699;
+    margin: 10px 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: color 0.3s ease; /* For smooth hover transition */
+}
+
+/* Hover effect for nav items */
+nav ul li a:hover {
+    color: #ff6699; /* Change color on hover */
+    background-color: #fff; /* Optional: Add background color on hover */
+    border-radius: 5px; /* Optional: Add rounded corners on hover */
+}
+
+/* Facts Section */
+section.facts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.fact-box {
+    background-color: #fff;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fact-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Pseudo-Classes and Pseudo-Elements */
+nav ul li a:hover {
+    color: #ff6699;
+}
+
+.fact-box:hover {
+    background-color: #ffebcc;
+}
+
+.fact-box::before {
+    content: '🐾 ';
+    font-size: 1.5rem;
+}
+
+footer::before {
+    content: '💖 ';
+    font-size: 1.2rem;
+}
