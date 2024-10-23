@@ -8,7 +8,7 @@ body {
 
 header {
     text-align: center; /* Center the content in the header */
-    background-color: #ffcc99;
+    background-color: #ff8796;
     padding: 20px;
     position: sticky;
     top: 0;
@@ -26,7 +26,7 @@ header {
 .title h1 {
     font-family: 'Cute Font', cursive; /* Use Cute Font for the title */
     font-size: 3rem;
-    color: #ff6699;
+    color: white;
     margin: 0 0 20px 0;
 }
 
@@ -48,7 +48,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: white;
     font-weight: 600;
     padding: 10px 20px;
     transition: color 0.3s ease; 
@@ -56,7 +56,7 @@ nav ul li a {
 
 /* Hover effect for nav items */
 nav ul li a:hover {
-    color: #ff6699; /* Change color on hover */
+    color: #fbe4db; /* Change color on hover */
     background-color: #fff; 
     border-radius: 5px;
 }
@@ -96,7 +96,7 @@ footer {
 
 /* Pseudo-Classes and Pseudo-Elements */
 nav ul li a:hover {
-    color: #ff6699;
+    color: ff8796;
 }
 
 .fact-box:hover {
@@ -114,10 +114,9 @@ footer::before {
 }
 
 /* Responsive design for smaller screens */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .logo img {
         position: static; 
-        /* width: 15%; */
     }
 
     section.facts {
