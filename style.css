@@ -1,9 +1,9 @@
 /* General Styling */
 body {
+    background-image: url(images/paw-pattern.jpg);
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
 }
 
 header {
@@ -27,7 +27,7 @@ header {
     font-family: 'Cute Font', cursive; /* Use Cute Font for the title */
     font-size: 3rem;
     color: #ff6699;
-    margin: 10px 0;
+    margin: 0 0 20px 0;
 }
 
 nav {
