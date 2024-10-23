@@ -17,9 +17,9 @@ header {
 
 .logo img {
     position: absolute; /* Keeps the logo at the top left */
-    top: 10px;
-    left: 10px;
-    width: 60px;
+    top: 20px;
+    left: 20px;
+    width: 70px;
     height: auto;
 }
 
@@ -75,7 +75,7 @@ section.facts {
     border-radius: 10px;
     padding: 15px;
     margin: 15px;
-    width: 30%;
+    width: 40%;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -111,4 +111,22 @@ nav ul li a:hover {
 footer::before {
     content: '💖 ';
     font-size: 1.2rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .logo img {
+        position: static; 
+        /* width: 15%; */
+    }
+
+    section.facts {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fact-box {
+        width: 70%;
+    }
 }
