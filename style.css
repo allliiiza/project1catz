@@ -78,9 +78,13 @@ section.facts {
     width: 40%;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centers text and image inside each fact box */
+=======
+    padding: 0 40px;
+>>>>>>> 91a533c662e6d27d69f5d7720ed5ee88c66de149
 }
 
 .fact-box img {
@@ -115,6 +119,10 @@ nav ul li a:hover {
 footer::before {
     content: '💖 ';
     font-size: 1.2rem;
+}
+
+a {
+    color: white;
 }
 
 /* Responsive design for smaller screens */
